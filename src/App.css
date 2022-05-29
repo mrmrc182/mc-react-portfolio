@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+.font-link{
+    font-family: "Press Start 2P", cursive;
+}
