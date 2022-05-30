@@ -20,5 +20,8 @@ p{
 .contact-list{
     list-style-type: none;
 }
-@use "@material/card";
-@include card.core/styles;
+.project-name{
+    font-family: "Press Start 2P", cursive; 
+}
+/* @use "@material/card";
+@include card.core/styles; */
