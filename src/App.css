@@ -13,6 +13,10 @@ p{
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
 }
+.title{
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+}
 .contact-list{
     list-style-type: none;
 }
