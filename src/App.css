@@ -20,3 +20,5 @@ p{
 .contact-list{
     list-style-type: none;
 }
+@use "@material/card";
+@include card.core/styles;
