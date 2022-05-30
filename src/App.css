@@ -3,7 +3,16 @@
     color: white;
     background-color: black;
 }
-
-.font-link{
+h1{
     font-family: "Press Start 2P", cursive;
+}
+p{
+    font-family: 'Share Tech Mono', monospace;
+}
+.name{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.contact-list{
+    list-style-type: none;
 }
