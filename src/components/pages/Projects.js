@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import AugurIMG from "../../images/augurPredictScreenshot.png";
 
 export default function Projects() {
   return (
@@ -9,10 +10,12 @@ export default function Projects() {
       <Card>
       <CardContent>
         <a href="https://augur-app.herokuapp.com/">
+          <div>
           <img
-            src="./images/augurPredictScreenshot.png"
+            src={AugurIMG}
             alt="a screenshot of the Augur app prediction page"
           ></img>
+          </div>
         </a>
         <div>
           <h4 class="project-name">Augur</h4>

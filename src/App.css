@@ -17,11 +17,25 @@ p{
     text-align: center;
     font-family: "Press Start 2P", cursive;
 }
+#space{
+    margin-top: 25px;
+}
 .contact-list{
     list-style-type: none;
 }
 .project-name{
     font-family: "Press Start 2P", cursive; 
+}
+.picture{
+    width: 25%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.social-link{
+    text-decoration: none;
+    color: white;
 }
 /* @use "@material/card";
 @include card.core/styles; */
