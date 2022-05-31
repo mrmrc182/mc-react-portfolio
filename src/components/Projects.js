@@ -2,15 +2,17 @@ import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import AugurIMG from "../images/augurPredictScreenshot.png";
+import JateIMG from "../images/jate.png";
 
 export default function Projects() {
   return (
-    <div>
+    <div className="card-display">
       <Card className="card-width">
         <CardContent>
           <a href="https://augur-app.herokuapp.com/">
             <div>
               <img
+                className="screenshot"
                 src={AugurIMG}
                 alt="a screenshot of the Augur app prediction page"
               ></img>
@@ -30,10 +32,10 @@ export default function Projects() {
           </div>
         </CardContent>
       </Card>
-      <Card>
+      <Card className="card-width">
         <CardContent>
           <a href="https://clean-progressive-text-editor.herokuapp.com/">
-            <img src="#" alt="a screenshot of the Text Editor app"></img>
+            <img className="screenshot" src={JateIMG} alt="a screenshot of the Text Editor app"></img>
           </a>
           <div>
             <h4 class="project-name">Text Editor</h4>

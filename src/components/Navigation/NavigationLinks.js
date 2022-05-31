@@ -1,9 +1,8 @@
-import React from 'react';
-
-function NavTabs({ currentPage, handlePageChange }) {
-  return (
-    <ul className="nav nav-tabs tab-name">
-      <li className="nav-item">
+const NavLinks = ({ currentPage, handlePageChange }) => {
+    return(
+        <div>
+            <ul className="nav-bar">
+      <li className="nav-tab">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -12,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tab">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -21,7 +20,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tab">
         <a
           href="#projects"
           onClick={() => handlePageChange('Portfolio')}
@@ -30,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tab">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -39,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-tab">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -49,7 +48,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-  );
+        </div>
+    )
 }
 
-export default NavTabs;
+export default NavLinks;
