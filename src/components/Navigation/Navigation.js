@@ -1,5 +1,11 @@
+import NavLinks from "./NavigationLinks";
+
 const Navigation = () => {
-    return (" ");
-}
+  return (
+    <div className="reg-nav">
+      <NavLinks />
+    </div>
+  );
+};
 
 export default Navigation;

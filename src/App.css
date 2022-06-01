@@ -63,5 +63,19 @@ p{
     width: 20%;
     text-align: center;
 }
+.mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width: 728px) {
+    .reg-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        background-color: red;
+    }
+    
+}
 /* @use "@material/card";
 @include card.core/styles; */
