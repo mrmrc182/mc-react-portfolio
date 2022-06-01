@@ -85,11 +85,12 @@ p{
 }
 .resume{
     width: 50%!important;
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center!important
 }
 .resume-page{
-    align-items: center!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
 }
 
 @media screen and (max-width: 728px) {
