@@ -6,7 +6,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
           <a
             href="#about"
             onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
+            className={currentPage === "About" ? "active" : "not-active"}
           >
             About
           </a>
@@ -15,9 +15,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
           <a
             href="#projects"
             onClick={() => handlePageChange("Portfolio")}
-            className={
-              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-            }
+            className={currentPage === "Portfolio" ? "active" : "not-active"}
           >
             Portfolio
           </a>
@@ -26,9 +24,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
-            className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
-            }
+            className={currentPage === "Resume" ? "active" : "not-active"}
           >
             Resume
           </a>
@@ -37,9 +33,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
           <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
-            className={
-              currentPage === "Contact" ? "nav-link active" : "nav-link"
-            }
+            className={currentPage === "Contact" ? "active" : "not-active"}
           >
             Contact
           </a>
