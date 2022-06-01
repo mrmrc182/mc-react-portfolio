@@ -19,6 +19,8 @@ export default function Contact() {
       </form>
       <br></br><br></br>
         <br></br><br></br>
+        <h3 className="name">Telephone: (No Solicitors)</h3>
+        <h4 className="name">760 402 9439</h4>
     </div>
   );
 }

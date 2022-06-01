@@ -1,11 +1,11 @@
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 
-const NavBar = () => {
+const NavBar = ({ currentPage, handlePageChange }) => {
   return (
     <div>
-      <Navigation />
-      <MobileNavigation />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <MobileNavigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import NavLinks from "./NavigationLinks";
 
-const Navigation = () => {
+const Navigation = ({ currentPage, handlePageChange }) => {
   return (
     <div className="reg-nav">
-      <NavLinks />
+      <NavLinks currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 };
