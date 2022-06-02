@@ -99,6 +99,9 @@ p{
 .project-description{
     width: 100%;
 }
+.button{
+    margin-top: 15px;
+}
 
 @media screen and (max-width: 728px) {
     .reg-nav{

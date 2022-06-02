@@ -1,6 +1,14 @@
 import React from "react";
 
 export default function Contact() {
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+    if(!email){
+    alert("Please provide a valid email address")
+    } 
+  };
+  
   return (
     <div>
       <h1 className="name">Contact Me</h1>
@@ -16,6 +24,8 @@ export default function Contact() {
         <label for="message">Message: </label>
         <br></br>
         <input name="message" placeholder="Your message here" tabIndex={4}></input>
+        <br></br><br></br>
+        <button type="button" onClick={handleFormSubmit} name="submit">Submit</button>
       </form>
       <br></br><br></br>
         <br></br><br></br>
