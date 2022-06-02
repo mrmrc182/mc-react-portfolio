@@ -10,7 +10,9 @@ export default function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     if (!email.test(e.target.email.value)) {
       alert("Please provide a valid email address");
-    } 
+    } else {
+      alert("Thanks for sending a message!")
+    }
   };
 
   return (
@@ -42,7 +44,7 @@ export default function Contact() {
         ></input>
         <br></br>
         <br></br>
-        <button type="button" name="submit" value="Submit">
+        <button type="submit" name="submit">
           Submit
         </button>
       </form>
