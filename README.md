@@ -13,7 +13,7 @@ I wrote the code but received help from my TA Michael and some kind BCS tutors.
 In addition, I utilized some outside help for this assignment.  Geeks for Geeks helped with my headers.  [The article is here.](https://www.geeksforgeeks.org/how-to-create-header-in-react-js/)  Addtionally, I utilized help from a YouTuber named DEVAMS for my hamburger menu, [here is the video I watched that helped.](https://www.youtube.com/watch?v=Et5tDPoU03c) 
 
 ## Testing
-To use my app, simply open it and navigate through the pages.  [You can find a link to the site here.]()  The user is able to see my projects by clicking on the thumbnail images, and can see the code by visiting the links to each apps GitHub repository.  Below is a screenshot of the portfolio's homepage.
+To use my app, simply open it and navigate through the pages.  [You can find a link to the site here.](https://mrmrc182.github.io/mc-react-portfolio/)  The user is able to see my projects by clicking on the thumbnail images, and can see the code by visiting the links to each apps GitHub repository.  Below is a screenshot of the portfolio's homepage.
 
 ![PortfolioScreenshot](homepagescreenshot.png)
 
