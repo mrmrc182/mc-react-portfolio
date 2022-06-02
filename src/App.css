@@ -119,7 +119,7 @@ p{
     }
     .hamburger{
         position: absolute;
-        right: 42%;
+        right: 50%;
         cursor: pointer;
         margin-bottom: 20px;
     }
