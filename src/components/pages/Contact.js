@@ -42,7 +42,7 @@ export default function Contact() {
         ></input>
         <br></br>
         <br></br>
-        <button type="button" name="submit">
+        <button type="button" name="submit" value="Submit">
           Submit
         </button>
       </form>
