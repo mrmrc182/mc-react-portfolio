@@ -24,7 +24,7 @@ export default function Projects() {
           </a>
           <div>
             <h4 class="project-name">Augur</h4>
-            <p>
+            <p className="project-description">
               An app to make and log stock market predictions. Made with
               JavaScript, Handlebars, and MySQL
             </p>
@@ -47,7 +47,7 @@ export default function Projects() {
           </a>
           <div>
             <h4 class="project-name">Off to the Market</h4>
-            <p>
+            <p className="project-description">
               An app to find local farmers markets in your area. Made with HTML,
               CSS, and JavaScript.
             </p>
