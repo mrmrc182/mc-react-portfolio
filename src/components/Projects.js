@@ -6,11 +6,35 @@ import JateIMG from "../images/jate.png";
 import TeamsiteIMG from "../images/profileSiteScreenshot.png";
 import MarketIMG from "../images/appfarmmarketscreenshot.png";
 import ReadmeIMG from "../images/properreadmescreenshot.png";
-import PasswordIMG from "../images/passwordgeneratorscreenshot.png";
+import OpenLobbyIMG from "../images/open_lobby_portfolio_screenshot.png";
 
 export default function Projects() {
   return (
     <div className="card-display">
+      <Card className="card-width">
+        <CardContent>
+          <a href="https://gitgud-open-lobby.herokuapp.com/">
+            <div>
+              <img
+                className="screenshot"
+                src={OpenLobbyIMG}
+                alt="a screenshot of the Open Lobby app home page"
+              ></img>
+            </div>
+          </a>
+          <div>
+            <h4 class="project-name">Open Lobby</h4>
+            <p className="project-description">
+            A full stack application where users can find information on esports events and place bets on them.  Made with MERN Stack.
+            </p>
+            <p>
+              <a href="https://github.com/mrmrc182/esports-betting">
+                Link to code
+              </a>
+            </p>
+          </div>
+        </CardContent>
+      </Card>
       <Card className="card-width">
         <CardContent>
           <a href="https://augur-app.herokuapp.com/">
@@ -128,7 +152,7 @@ export default function Projects() {
           </div>
         </CardContent>
       </Card>
-      <Card className="card-width">
+      {/* <Card className="card-width">
         <CardContent>
           <a href="https://mrmrc182.github.io/password-creator-secure/">
             <img
@@ -150,7 +174,7 @@ export default function Projects() {
             </p>
           </div>
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   );
 }
