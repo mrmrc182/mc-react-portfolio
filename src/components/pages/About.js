@@ -4,6 +4,7 @@ import Headshot from "../../images/headshot.jpg";
 export default function About() {
   return (
     <div>
+      <br></br>
       <img
         className="picture"
         alt="A headshot of Mr. Carlson"
