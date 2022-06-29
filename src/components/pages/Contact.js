@@ -1,24 +1,25 @@
 import React from "react";
 
 export default function Contact() {
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
  
-    const email = new RegExp(
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    );
-    // Preventing the default behavior of the form submit (which is to refresh the page)
-    if (!email.test(e.target.email.value)) {
-      alert("Please provide a valid email address");
-    } else {
-      alert("Thanks for sending a message!")
-    }
-  };
+  //   const email = new RegExp(
+  //     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  //   );
+  //   // Preventing the default behavior of the form submit (which is to refresh the page)
+  //   if (!email.test(e.target.email.value)) {
+  //     alert("Please provide a valid email address");
+  //   } else {
+  //     alert("Thanks for sending a message!")
+  //   }
+  // };
 
   return (
     <div>
+      <br></br>
       <h1 className="name">Contact Me</h1>
-      <form className="name" onSubmit={handleFormSubmit}>
+      {/* <form className="name" onSubmit={handleFormSubmit}>
         <label for="name" tabIndex={1}>
           Name:
         </label>
@@ -50,6 +51,11 @@ export default function Contact() {
       </form>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br> */}
+      <br></br>
+      <h3 className="name">Email: </h3>
+      <h4 className="name">carlson.matt.r@gmail.com</h4>
       <br></br>
       <br></br>
       <h3 className="name">Telephone: (No Solicitors)</h3>
