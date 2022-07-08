@@ -13,7 +13,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
         </li>
         <li className="nav-tab">
           <a
-            href="#portfolio"
+            href="/portfolio"
             onClick={() => handlePageChange("Portfolio")}
             className={currentPage === "Portfolio" ? "active" : "not-active"}
           >
@@ -22,7 +22,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
         </li>
         <li className="nav-tab">
           <a
-            href="#resume"
+            href="/resume"
             onClick={() => handlePageChange("Resume")}
             className={currentPage === "Resume" ? "active" : "not-active"}
           >
@@ -31,7 +31,7 @@ const NavLinks = ({ currentPage, handlePageChange }) => {
         </li>
         <li className="nav-tab">
           <a
-            href="#contact"
+            href="/contact"
             onClick={() => handlePageChange("Contact")}
             className={currentPage === "Contact" ? "active" : "not-active"}
           >
