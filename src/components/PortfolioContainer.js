@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import React, { useState } from 'react';
 import NavBar from './Navigation/NavBar';
 import About from './pages/About';
@@ -10,14 +11,14 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'About':
-        return <About />;
+      case 'Contact':
+        return <Contact />;
       case 'Portfolio':
         return <Portfolio />;
       case "Resume":
         return <Resume />;
-      default:
-        return <Contact />;
+      case "About":
+        return <About />;
     }
   };
 

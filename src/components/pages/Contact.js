@@ -22,9 +22,9 @@ export default function Contact() {
       <form id="contact-form">
         <input type="hidden" name="contact_number"/>
         <label>Name</label>
-        <input type="text" name="user_name"/>
+        <input type="text" name="user_email"/>
         <label>Email</label>
-        <input type="email" name="user_email"/>
+        <input type="email" name="user_message"/>
         <label>Message</label>
         <textarea name="message"></textarea>
         <button type="submit" value="Send" onClick={handleFormSubmit}>Send</button>

@@ -7,7 +7,7 @@ p{
     font-family: 'Share Tech Mono', monospace;
 }
 #contact-form{
-    display: block;
+    display: block !important;
 }
 .tab-name{
     font-family: "Press Start 2P", cursive;

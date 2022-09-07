@@ -1,5 +1,5 @@
 import React from "react";
-import mcResume from "../../images/MC_Resume.png";
+import mcResume from "../../images/MC_Tech_Resume_2022-1.png";
 
 export default function File() {
   return (
