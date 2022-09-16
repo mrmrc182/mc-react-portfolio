@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mc-react-portfolio/static/css/main.497538d8.chunk.css",
-    "main.js": "/mc-react-portfolio/static/js/main.0e797812.chunk.js",
-    "main.js.map": "/mc-react-portfolio/static/js/main.0e797812.chunk.js.map",
+    "main.js": "/mc-react-portfolio/static/js/main.f2603a4c.chunk.js",
+    "main.js.map": "/mc-react-portfolio/static/js/main.f2603a4c.chunk.js.map",
     "runtime-main.js": "/mc-react-portfolio/static/js/runtime-main.fa398a05.js",
     "runtime-main.js.map": "/mc-react-portfolio/static/js/runtime-main.fa398a05.js.map",
     "static/css/2.0a9ec390.chunk.css": "/mc-react-portfolio/static/css/2.0a9ec390.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.0a9ec390.chunk.css.map": "/mc-react-portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.497538d8.chunk.css.map": "/mc-react-portfolio/static/css/main.497538d8.chunk.css.map",
     "static/js/2.7350c5d7.chunk.js.LICENSE.txt": "/mc-react-portfolio/static/js/2.7350c5d7.chunk.js.LICENSE.txt",
-    "static/media/MC_Tech_Resume_2022-1.17d7e8a4.png": "/mc-react-portfolio/static/media/MC_Tech_Resume_2022-1.17d7e8a4.png",
+    "static/media/MC_Tech_Resume_2022-1.a8cd241c.png": "/mc-react-portfolio/static/media/MC_Tech_Resume_2022-1.a8cd241c.png",
     "static/media/appfarmmarketscreenshot.294e2d08.png": "/mc-react-portfolio/static/media/appfarmmarketscreenshot.294e2d08.png",
     "static/media/augurPredictScreenshot.196df7cb.png": "/mc-react-portfolio/static/media/augurPredictScreenshot.196df7cb.png",
     "static/media/headshot.bd5f3a8a.jpg": "/mc-react-portfolio/static/media/headshot.bd5f3a8a.jpg",
@@ -26,6 +26,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.7350c5d7.chunk.js",
     "static/css/main.497538d8.chunk.css",
-    "static/js/main.0e797812.chunk.js"
+    "static/js/main.f2603a4c.chunk.js"
   ]
 }
